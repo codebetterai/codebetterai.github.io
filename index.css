@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #444;
   }
   
   header {
@@ -27,7 +28,7 @@ body {
   nav {
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: #3C3B6E;
     flex-wrap: wrap;
   }
   
@@ -39,7 +40,7 @@ body {
   }
   
   nav a:hover {
-    background-color: #3C3B6E;
+    background-color: #5960A3;
   }
   
   #hero {
@@ -57,7 +58,7 @@ body {
   }
   
   #hero h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin: 0;
   }
@@ -85,10 +86,15 @@ body {
   .feature h3 {
     font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .feature p {
+    font-size: 1rem;
   }
   
   #pricing {
-    background-color: #F0F0F0;
+    background-color: #F7F7F7;
     padding: 2rem 0;
     text-align: center;
     margin-top: 2rem;
@@ -97,10 +103,11 @@ body {
   #pricing h2 {
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 1rem;
   }
   
   footer {
-    background-color: #333;
+    background-color: #3C3B6E;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -109,17 +116,13 @@ body {
   
   @media (min-width: 480px) {
     #hero h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
   }
   
   @media (min-width: 768px) {
     .feature {
       flex-basis: 48%;
-    }
-  
-    #hero h1 {
-      font-size: 3rem;
     }
   }
   
@@ -129,3 +132,24 @@ body {
     }
   }
   
+  .use-cases {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .use-cases h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .use-cases ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .use-cases li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
